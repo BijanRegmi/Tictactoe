@@ -97,12 +97,14 @@ int ai (char (*grid)[4])
 void update(char (*grid)[4], int turn)
 {
     char a[3]={'O','X'};
+    int ch[9]={0,00,01,02,10,11,12,20,21,22};
     int index,index_x,index_y;
     A:
     
-    printf("\nCHOOSE YOUR BOX INDEX ");
-    scanf("%d",&index);
+    printf("\nCHOOSE YOUR BOX NUMBER ");
+    scanf("%d",&l);
 
+    index=ch[l];
     index_x=index/10;
     index_y=index%10;
     
