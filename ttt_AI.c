@@ -97,8 +97,8 @@ int ai (char (*grid)[4])
 void update(char (*grid)[4], int turn)
 {
     char a[3]={'O','X'};
-    int ch[9]={0,00,01,02,10,11,12,20,21,22};
-    int index,index_x,index_y;
+    int ch[10]={0,00,01,02,10,11,12,20,21,22};
+    int index,index_x,index_y,l;
     A:
     
     printf("\nCHOOSE YOUR BOX NUMBER ");
